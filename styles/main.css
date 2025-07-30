@@ -1,4 +1,16 @@
-body{
-    display: block;
-    margin: 8px;
+.elem {
+    width: 100px;
+    height: 100px;
+    background-color: #782424;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#elem {
+    width: 100px;
+    height: 100px;
+    background-color: #245678;
+    color: #fff;
+    padding: 10px;
 }
