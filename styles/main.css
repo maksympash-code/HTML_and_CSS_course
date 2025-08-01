@@ -1,16 +1,4 @@
-.elem {
-    width: 100px;
-    height: 100px;
-    background-color: #782424;
+body{
+    background-color: #000;
     color: #fff;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#elem {
-    width: 100px;
-    height: 100px;
-    background-color: #245678;
-    color: #fff;
-    padding: 10px;
 }
