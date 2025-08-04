@@ -1,17 +1,11 @@
-*{
-    margin: 0;
+input[type="checkbox"]:checked + span{
+    color: red;
 }
 
-body{
-    background-color: #1c9c3e;
-    color: #fff;
-    margin: 0;
+input[type="radio"]:checked + span{
+    color: red;
 }
 
-.text{
-    background-color: #fff;
-}
-
-#text{
-    background-color: #872626;
+p:not(.text2) { 
+    color: aqua;
 }
