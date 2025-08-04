@@ -1,3 +1,17 @@
-[title] {
-    color: red;
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1c9c3e;
+    color: #fff;
+    margin: 0;
+}
+
+.text{
+    background-color: #fff;
+}
+
+#text{
+    background-color: #872626;
 }
