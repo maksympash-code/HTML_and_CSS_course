@@ -1,12 +1,9 @@
-p:nth-child(4) { 
-    color: aqua;
-    font-weight: bold;
+.img {
+    background-image: url(/img/background_image.jpg);
 }
-p:Last-child(even) { 
-    color: aqua;
-    font-weight: bold;
-}
-p:first-child() { 
-    color: aqua;
-    font-weight: bold;
+
+.img2 {
+    background-image: url(/img/background_image.jpg);
+    width: 150px;
+    height: 150px;
 }
