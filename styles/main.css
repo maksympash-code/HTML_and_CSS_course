@@ -1,11 +1,3 @@
-.img {
-    background-image: url(/img/background_image.jpg);
-    background-repeat: repeat-x;
-    width: 1280px;
-    height: 960px;
-}
-
 p {
-    background-color: grey;
-    color: #fff;
+    border: 2px dashed #42c642;
 }
