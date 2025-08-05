@@ -6,23 +6,24 @@ html {
 }
 
 
-div {
-    color: #fff;
+button {
+    cursor: pointer;
 }
 
-div.box1 {
-    box-sizing: border-box;
-    background-color: rgb(158, 74, 74);
-    padding: 20px;
-    border: 5px solid black;
-    width: 150px;
-    height: 150px;
+.new::after {
+    content: 'new';
+    color: #ffcc00;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: black;
 }
-div.box2 {
-    box-sizing: content-box;
-    background-color: rgb(67, 138, 67);
-    padding: 20px;
-    border: 5px solid black;
-    width: 150px;
-    height: 150px;
+
+.new::before {
+    content: '\00D7';
+    color: #ffcc00;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: black;
 }
