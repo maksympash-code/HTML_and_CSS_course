@@ -8,17 +8,13 @@ html {
 .parent {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     gap: 10px;
+    justify-content: space-between;
 }
 
 .parent > div {
-    width: 150px;
+    width: 50px;
     background-color: #60caf0;
     padding: 10px;
-    /* margin-right: 10px; */
 }
 
-/* .parent > div:last-child {
-    margin-right: 0;
-} */
