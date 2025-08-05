@@ -8,11 +8,17 @@ html {
 .parent {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .parent > div {
     width: 150px;
     background-color: #60caf0;
-    margin: 5px;
     padding: 10px;
+    /* margin-right: 10px; */
 }
+
+/* .parent > div:last-child {
+    margin-right: 0;
+} */
