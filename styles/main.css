@@ -4,12 +4,16 @@ p {
     font-weight: bold;
     font-style: italic;
     line-height: 27px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-decoration: line-through;
+    text-transform: capitalize;
 }
 
 a {
-
+    text-decoration: underline;
 }
 
 ul {
-
+    list-style: square;
 }
