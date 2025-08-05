@@ -1,19 +1,17 @@
-p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 27px;
-    letter-spacing: 1px;
-    text-align: justify;
-    text-decoration: line-through;
-    text-transform: capitalize;
+div {
+    width: 150px;
+    height: 150px;
+    color: #fff;
 }
 
-a {
-    text-decoration: underline;
+div.box1 {
+    background-color: rgb(158, 74, 74);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin: 10px auto;
 }
-
-ul {
-    list-style: square;
+div.box2 {
+    background-color: rgb(67, 138, 67);
+    margin: 20px;
 }
