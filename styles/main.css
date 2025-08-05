@@ -1,7 +1,6 @@
 p {
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 50px 100px 50px;
-    border-color: transparent transparent #f00 transparent;
+    width: 150px;
+    height: 150px;
+    background: #3da5b3;
+    background: linear-gradient(165deg, #3da5b3, 20%, #000000);
 }
