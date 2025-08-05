@@ -6,10 +6,8 @@ div {
 
 div.box1 {
     background-color: rgb(158, 74, 74);
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin: 10px auto;
+    padding: 20px;
+    border: 5px solid black;
 }
 div.box2 {
     background-color: rgb(67, 138, 67);
