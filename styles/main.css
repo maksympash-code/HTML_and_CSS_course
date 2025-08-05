@@ -1,6 +1,13 @@
 p {
-    width: 150px;
-    height: 150px;
-    background: #3da5b3;
-    background: linear-gradient(165deg, #3da5b3, 20%, #000000);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+
+}
+
+ul {
+
 }
