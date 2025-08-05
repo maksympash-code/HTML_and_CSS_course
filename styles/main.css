@@ -1,15 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
 div {
-    width: 150px;
-    height: 150px;
     color: #fff;
 }
 
 div.box1 {
+    box-sizing: border-box;
     background-color: rgb(158, 74, 74);
     padding: 20px;
     border: 5px solid black;
+    width: 150px;
+    height: 150px;
 }
 div.box2 {
+    box-sizing: content-box;
     background-color: rgb(67, 138, 67);
-    margin: 20px;
+    padding: 20px;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
 }
