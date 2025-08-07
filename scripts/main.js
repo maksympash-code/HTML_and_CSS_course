@@ -1,6 +1,6 @@
-let money = false;
-let wish = false;
+let snow = false;
+let rain = false;
 
-// Buy something?
-let result = money && wish;
+// Can I wear sweater?
+let result = snow || rain;
 console.log(result)
