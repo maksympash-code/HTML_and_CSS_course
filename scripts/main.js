@@ -1,7 +1,9 @@
-let age = 0.5; // Вік
+let a = 6;
+let b = 5;
 
-let b1 = true;
-let b2 = false;
+a += 4; // a = a + 4
 
-const c = 15;
-const text = 'Hello, world!';
+console.log(a % b);
+console.log(a++);
+console.log(a--);
+console.log(++a);
