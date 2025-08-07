@@ -1,3 +1,4 @@
-let snow = false;
+let a = 17;
 
-console.log(5 > 7);
+console.log(`Текст на декількох
+    рядках ${a}`)
