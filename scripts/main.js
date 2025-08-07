@@ -1,1 +1,1 @@
-console.log('Text')
+alert(25 / 10)
