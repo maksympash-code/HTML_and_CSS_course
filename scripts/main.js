@@ -1,4 +1,1 @@
-let a = 17;
-
-console.log(`Текст на декількох
-    рядках ${a}`)
+console.log(Math.random())
