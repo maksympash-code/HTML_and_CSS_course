@@ -10,18 +10,20 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 50px;
     gap: 10px;
+    /* grid-auto-flow: column; */
+    grid-template-areas: 
+    ". . area2"
+    "area3 area3 area2";
 }
 
 .item {
     background-color: #b16252;
 }
+
 .item1 {
-    /* grid-row: 1 / 3; */
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-area: area2;
 }
-.item6 {
-    /* grid-column: 3 / 5; */
-    grid-column-start: 3;
-    grid-column-end: 5;
+
+.item4 {
+    grid-area: area3;
 }
