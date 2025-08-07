@@ -1,1 +1,4 @@
-alert(25 / 10)
+let a;
+var b;
+const c = 15;
+const text = 'Hello, world!';
