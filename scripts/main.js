@@ -1,4 +1,4 @@
-let a = 6;
-let b = '4';
-
-console.log(a - b);
+let bob = 'Hello, world!';
+console.log(bob.toLowerCase())
+console.log(bob.toUpperCase())
+console.log(bob)
