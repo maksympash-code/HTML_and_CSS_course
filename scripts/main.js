@@ -1,12 +1,13 @@
-let obj = {
-    'color': 'red',
-    'number': 12,
-    'snow': true,
-    'numbers': [123, 345, 678],
-    'age': 19,
-};
+let age = 18;
 
-console.log(obj);
-console.log(obj.numbers);
-console.log(obj.numbers[1]);
-console.log(Object.keys(obj))
+if (age < 18) {
+    console.log('Close the window!');
+}
+else if (age > 18) {
+    console.log('Nice man)')
+}
+else {
+    console.log('You are right!');
+}
+
+console.log('Hello!');
