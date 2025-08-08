@@ -1,13 +1,7 @@
-let age = 18;
+let count = 0;
 
-if (age < 18) {
-    console.log('Close the window!');
+while(count < 5) {
+    console.log(count)
+    count++;
 }
-else if (age > 18) {
-    console.log('Nice man)')
-}
-else {
-    console.log('You are right!');
-}
-
-console.log('Hello!');
+console.log('Hello');
