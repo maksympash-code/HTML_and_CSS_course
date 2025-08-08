@@ -1,7 +1,7 @@
-let count = 0;
+let elem = document.querySelector('div');
 
-while(count < 5) {
-    console.log(count)
-    count++;
-}
-console.log('Hello');
+elem.innerHTML += ' <b style = "color: red">Something my text</b>'
+
+elem.style.background = 'black';
+
+elem.style.color = '#fff';
