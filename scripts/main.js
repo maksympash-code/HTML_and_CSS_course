@@ -1,7 +1,5 @@
-function print() {
-    console.log('Hello, World!');
+function print(name, age) {
+    console.log(`Hello, ${name}! Are you ${age} years old?`);
 };
 
-print();
-print();
-print();
+print('Maksym', 19);
