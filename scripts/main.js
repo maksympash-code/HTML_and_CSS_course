@@ -1,7 +1,7 @@
-let elem = document.querySelector('div');
+let elems = document.querySelectorAll('div');
 
-elem.innerHTML += ' <b style = "color: red">Something my text</b>'
-
-elem.style.background = 'black';
-
-elem.style.color = '#fff';
+for(let i of elems){
+    i.innerHTML += ' <b style = "color: orange">Something my text</b>'
+    i.style.background = 'green';
+    i.style.color = '#fff';
+}
