@@ -1,5 +1,7 @@
-let array = ['Element 1', 'Element 2', 'Element 3'];
+let elem = document.querySelector('.main');
+console.log(elem.getAttribute('title'));
 
-document.querySelector('.main').innerHTML = `
-    ${array[0]} - ${array[1]} - ${array[2]}
-`
+elem.setAttribute('title', 'New text');
+console.log(elem.getAttribute('title'));
+
+console.log(elem.dataset.aboutBlock); // custom attribute
