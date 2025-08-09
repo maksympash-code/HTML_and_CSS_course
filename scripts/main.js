@@ -1,10 +1,5 @@
-let elems = document.querySelectorAll('div');
+let array = ['Element 1', 'Element 2', 'Element 3'];
 
-
-let i = 0
-while(i < elems.length){
-    elems[i].innerHTML += ' <b style = "color: orange">Something my text</b>'
-    elems[i].style.background = 'green';
-    elems[i].style.color = '#fff';
-    i++;
-}
+document.querySelector('.main').innerHTML = `
+    ${array[0]} - ${array[1]} - ${array[2]}
+`
