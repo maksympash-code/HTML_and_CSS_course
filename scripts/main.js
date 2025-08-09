@@ -1,7 +1,14 @@
-let elem = document.querySelector('.main');
-console.log(elem.getAttribute('title'));
+function update(){
+    let money = +document.querySelector('.money').value
+    let years = +document.querySelector('.years').value
 
-elem.setAttribute('title', 'New text');
-console.log(elem.getAttribute('title'));
+    let result = money + money * 0.12 * years;
+    document.querySelector('.result').textContent = result
+}
+update()
 
-console.log(elem.dataset.aboutBlock); // custom attribute
+document.querySelector('.money').addEventListener('input', function(){
+    update()
+})
+
+document.querySelector('.years').addEventListener('input', update);
